@@ -1,0 +1,45 @@
+.EventProfile{
+    height: 100vh;
+    color: #85A7FE;
+}
+.EventProfile h1{
+    text-align:center;
+}
+.EventProfile .LsProfile {
+    display:flex;
+    flex-direction: column;
+    padding:auto;
+    margin:auto;
+}
+.EventProfile .LsProfile .infoEvent {
+    text-align: end;
+    margin-right: 5%;
+    font-size: larger;
+    margin-bottom: 5%;
+}
+.EventProfile .btn_event{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: auto;
+
+}
+.EventProfile .btn_event button{
+    background-color: white;
+    margin-top: 4%;
+    border-color: #85A7FE;
+    border-radius:20px;
+    border-width: 4px;
+    border-style:solid;
+    padding:5px;
+    color:#82C1FC;
+}
+.EventProfile .btn_event button:hover{
+    background-color: #85A7FE;
+    color:white;
+
+}
+.EventProfile .LsProfile .infoEvent img {
+    float: left;
+    margin-left: 5%;
+}

@@ -1,0 +1,64 @@
+.Eventsa{
+    height: 100vh;
+}
+.AllEvents{
+    display:flex;
+    flex-wrap: wrap;
+}
+.Event{
+    display:flex;
+    flex-direction: column;
+    width: max-content;
+    border-color: #85A7FE;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 1em;
+    color:#85A7FE;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+}
+.Event input{
+    border-color: #85A7FE;
+    color:#85A7FE;
+    border-radius:20px;
+    border-width: 3px;
+    border-style:solid;
+    padding: 4px;
+    width: max-content;
+    background-color: white;
+}
+.Event input:hover{
+    width: max-content;
+    background-color: #85A7FE;
+    color:white;
+}
+.NameEvent{
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-size: 1000[x];
+}
+.btnAllEvents{
+    width: max-content;
+ margin-top: 1.5em;
+ margin-left: auto;
+    
+}
+.LogoNme {
+    color:#85A7FE;
+    margin: auto;
+    text-align: center;
+}
+.allbtn button{
+    color:#85A7FE;
+    margin-left:1em;
+    border-color: #85A7FE;
+    background-color: white;
+    border-style:solid;
+    border-radius:15px;
+}
+.allbtn button:hover{
+    width: max-content;
+    background-color: #85A7FE;
+    color:white;
+}

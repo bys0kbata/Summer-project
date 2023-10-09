@@ -1,0 +1,58 @@
+.Register{
+    height: 100vh;
+}
+.Reg{
+    display:flex;
+    flex-direction: column;
+   margin: auto;
+    width: 20em;
+    text-align: center;
+    margin-top: 2.5em;
+    border-color: #85A7FE;
+    padding: 3em;
+    border-radius: 30px;
+    border-width: 5px;
+    border-style:solid;
+    align-self: center;
+    color:#85A7FE;
+    font-weight:bold;
+    font-size: x-large;
+}
+.Reg form{
+    margin-top: 1em;
+    display:flex;
+    flex-direction: column;
+    color:#82C1FC;
+    font-weight: normal;
+    font-size: normal;
+}
+.Reg input{
+    margin-top: 1em;
+    border-color: #85A7FE;
+    border-radius:20px;
+    border-width: 4px;
+    border-style:solid;
+    padding:5px;
+    color:#82C1FC;
+}
+.Reg select{
+    margin-top: 4%;
+    border-color: #85A7FE;
+    border-radius:20px;
+    border-width: 4px;
+    padding: 4PX;
+}
+.Reg select option{
+    border-color: #85A7FE;
+    border-radius:20px;
+    border-width: 4px;
+}
+.Reg .btn{
+    width: max-content;
+    background-color: white;
+}
+.Reg .btn:hover{
+    width: max-content;
+    background-color: #85A7FE;
+    color:white;
+}

@@ -1,0 +1,41 @@
+.VoluApp{
+    height: 100vh;
+}
+.LogoApp{
+    text-align: center;
+    margin:auto;
+    margin-top: 0.5em;
+    font-size: 1000[x];
+    color:#85A7FE;
+}
+.VoluApp form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top:2em;
+    width: 20em;
+    border-color: #85A7FE;
+    border-style:solid;
+    border-width: 4px;
+    border-radius: 10px;
+    padding:14px;
+}
+.VoluApp form input{
+    margin-top:1em;
+    border-style:solid;
+    border-width:  4px;
+    border-color:#85A7FE;
+    border-radius: 20px;
+    padding:5px;
+}
+.VoluApp .btn_Vol{
+    width: max-content;
+    background-color: white;
+}
+.VoluApp .btn_Vol:hover{
+    width: max-content;
+    background-color: #85A7FE;
+    color:white;
+}

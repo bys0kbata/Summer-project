@@ -1,0 +1,78 @@
+.header{
+  border-bottom-color: #85A7FE;
+  border-bottom-style: inset;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  width: 100%;
+}
+.header__left{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    font-weight:bold;
+    font-style:unset;
+    color: #85A7FE;
+  }
+.header__right{
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  }
+  .nav_registration a{
+    border-color:#E4B53C;
+    border-style:solid;
+    padding: 3px;
+    margin-left: 5px;
+    border-radius: 10px;
+    text-decoration:none;
+    color:#E4B53C;
+  }
+  .nav_registration a:hover{
+    width: max-content;
+    background-color: #E4B53C;
+    color:white;
+  }
+  /* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Контейнер <div> — необходим для размещения содержимого раскрывающегося списка. */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Содержимое раскрывающегося списка (по умолчанию скрыто) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Ссылки внутри раскрывающегося списка*/
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* 
+Показывать выпадающее меню при наведении */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Измените цвет фона кнопки раскрывающегося списка, когда отображается содержимое раскрывающегося списка. */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
